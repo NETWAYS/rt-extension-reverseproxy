@@ -4,7 +4,7 @@ use 5.10.1;
 use strict;
 use warnings;
 
-our $VERSION = '0.1';
+our $VERSION = '0.9.0';
 
 sub PSGIWrap {
     my ( $class, $app ) = @_;
